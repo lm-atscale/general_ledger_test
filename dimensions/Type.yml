@@ -1,0 +1,18 @@
+unique_name: Type
+object_type: dimension
+label: Type
+hierarchies:
+  - unique_name: Type_Hierarchy
+    label: Type Hierarchy
+    levels:
+      - unique_name: Type_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Type_Level
+    label: Type Level
+    contains_unique_names: false
+    dataset: gl_data_test_3
+    key_columns:
+      - Type
+    name_column: Type
+type: standard

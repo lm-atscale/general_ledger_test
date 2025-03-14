@@ -1,0 +1,6 @@
+unique_name: con_aodan_catalog_gl_test
+object_type: connection
+label: con_aodan_catalog_gl_test
+as_connection: Databricks
+database: aodan_catalog
+schema: gl_test

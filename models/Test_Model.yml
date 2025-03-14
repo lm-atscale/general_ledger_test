@@ -1,0 +1,12 @@
+unique_name: Test_Model
+object_type: model
+label: Test_Model
+dimensions:
+  - Type
+  - Ledger
+metrics:
+  - unique_name: m_gl_data_test_3_Amount_sum
+  - unique_name: m_gl_data_test_3_Test_Amount_sum
+  - unique_name: m_gl_data_test_3_Amount_db_sum
+  - unique_name: m_gl_data_test_3_test_Amount_db_sum
+relationships: []

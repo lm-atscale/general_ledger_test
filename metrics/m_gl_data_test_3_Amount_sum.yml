@@ -1,0 +1,6 @@
+unique_name: m_gl_data_test_3_Amount_sum
+object_type: metric
+label: Amount
+calculation_method: sum
+column: Amount
+dataset: gl_data_test_3

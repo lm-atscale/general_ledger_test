@@ -1,0 +1,18 @@
+unique_name: Amount_Db
+object_type: dimension
+label: Amount Db
+hierarchies:
+  - unique_name: Amount_Db_Hierarchy
+    label: Amount Db Hierarchy
+    levels:
+      - unique_name: Amount_Db_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Amount_Db_Level
+    label: Amount Db Level
+    contains_unique_names: false
+    dataset: gl_data_test_3
+    key_columns:
+      - Amount_db
+    name_column: Amount_db
+type: standard

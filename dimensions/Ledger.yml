@@ -1,0 +1,18 @@
+unique_name: Ledger
+object_type: dimension
+label: Ledger
+hierarchies:
+  - unique_name: Ledger_Hierarchy
+    label: Ledger Hierarchy
+    levels:
+      - unique_name: Ledger_Level
+is_degenerate: true
+level_attributes:
+  - unique_name: Ledger_Level
+    label: Ledger Level
+    contains_unique_names: false
+    dataset: gl_data_test_3
+    key_columns:
+      - Ledger
+    name_column: Ledger
+type: standard
