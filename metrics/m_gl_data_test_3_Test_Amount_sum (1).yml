@@ -1,0 +1,6 @@
+unique_name: m_gl_data_test_3_Test_Amount_sum (1)
+object_type: metric
+label: Test Amount - AVG
+calculation_method: average
+column: Test Amount
+dataset: gl_data_test_3

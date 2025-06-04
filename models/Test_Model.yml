@@ -9,4 +9,5 @@ metrics:
   - unique_name: m_gl_data_test_3_Test_Amount_sum
   - unique_name: m_gl_data_test_3_Amount_db_sum
   - unique_name: m_gl_data_test_3_test_Amount_db_sum
+  - unique_name: m_gl_data_test_3_Test_Amount_sum (1)
 relationships: []
